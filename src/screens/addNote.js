@@ -10,6 +10,7 @@ const AddNote = ({ setCurrentPage, addNote }) => {
   
     return (
       <View style={styles.container}>
+
         <Text style={styles.pageTitle}>Tambahkan Note</Text>
         <CustomTextInput
           text={title}
